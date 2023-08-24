@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list-app-item {
+  list-style: none;
+  min-width: 180px;
+  min-height: 120px;
+  height: 50%;
+  width: 14%;
+  margin: 10px;
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.app-store-bg {
+  background-image: linear-gradient(to bottom, #dfe2e5, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  background-size: cover;
+}
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #7b8794;
+  border-radius: 6px;
+}
+
+.search-logo {
+  height: 10%;
+  width: 10%;
+}
+.search-bar {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px;
+  background-repeat: no-repeat;
+  width: 90%;
+}
+
+.unordered-list-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.unordered-list-app-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and(min-width:768px) {
+  .app-store-bg {
+    height: 100vh;
+  }
+}
